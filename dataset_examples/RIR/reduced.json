@@ -1,0 +1,67 @@
+[
+  {
+    "sample_id": "13089021301",
+    "sub_task": "white black income ratio",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>\n\nYou are a geography inequality expert. Here are some satellite and street images from a U.S. census tract. Based on these, please estimate the income ratio between Black and White households, which is the median income of Black households divided by the median income of White households. This value ranges from 0 to 2. A value of 1 represents parity, lower values mean higher White incomes, and higher values mean higher Black incomes.\n\nFollow the steps below to estimate the Black households’ median income, White households’ median income, and the Black-to-White income ratio for this area.\n\nSTEP 1: Based on all the images, analyze and estimate which income range the median income for Black and White households falls into:\n\n- LEVEL1: Less than $10,000\n- LEVEL2: $10,000 to $14,999\n- LEVEL3: $15,000 to $24,999\n- LEVEL4: $25,000 to $34,999\n- LEVEL5: $35,000 to $49,999\n- LEVEL6: $50,000 to $74,999\n- LEVEL7: $75,000 to $99,999\n- LEVEL8: $100,000 to $149,999\n- LEVEL9: $150,000 to $199,999\n- LEVEL10: $200,000 or more\n\nSTEP 2: Based on your predicted income ranges, estimate the specific income values within those ranges for both Black and White households.\n\nSTEP 3: Using the income data obtained in the previous step, calculate the income ratio between Black and White households. (This ratio should not exceed 2.)\n\n**Important: When you output, do not include explanations, calculations, or analysis in your response. Only provide the estimated income and Black-to-White income ratio in the format specified below.**\n\nOutput format:\n- Black Median Income: XXXXX\n- White Median Income: XXXXX\n- Income Ratio: X.XX\n"
+      },
+      {
+        "from": "gpt",
+        "value": "\n- Black Median Income: 36250\n- White Median Income: 60199\n- Income Ratio: 0.6\n"
+      }
+    ],
+    "image": [
+      "images/13100_8712.png",
+      "images/wLq7Ct58ZnNbaLQ42xPShw&33.90157752349081&-84.29846343389218&15&8.jpg",
+      "images/2_jTIn8Mj1kWeeu9g61ZIWbA&33.90822766694538&-84.2918413906808&15.jpg",
+      "images/nZlBXz7K3mDnt4LH0KLokQ&33.91382929514061&-84.29169891257852&15&8.jpg",
+      "images/g4MXCQMl7KFUEzjQE5vBNA&33.90002229400214&-84.28126029665567&15&0.jpg",
+      "images/gJUSEbxav6l4ptDd9OdK1g&33.90689701036219&-84.28975293586697&15&12.jpg",
+      "images/2__5QAZsiNEprLJKdlOeaqug&33.90293859604725&-84.27760152747538&15.jpg",
+      "images/3_MBuyKE6QG25Bn3xGbgtbWg&33.8999440997115&-84.29396269977148&15.jpg",
+      "images/3_WqnR0A1sOB7kwdAR4Tv1pQ&33.90520155745937&-84.29361109439924&15.jpg",
+      "images/4JrDn4knaj1i_8QVZAxTfQ&33.90215836387736&-84.28002354124698&15&0.jpg",
+      "images/AsWjSyph88POEsI7TWCSYQ&33.91034313952149&-84.28978369739683&15&12.jpg",
+      "images/kFT1xg-VLoO2YOUzoWmDfw&33.91687324823513&-84.29667211147007&15&12.jpg",
+      "images/5fcIELFd22UvoPJLR6XyZQ&33.90072459705259&-84.27436374734428&15&8.jpg"
+    ],
+    "choice_list": "null",
+    "metadata": {
+      "dataset": "Socioeconomic",
+      "question_type": "open-ended"
+    }
+  },
+  {
+    "sample_id": "45003020500",
+    "sub_task": "white black income ratio",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>\n\nYou are a geography inequality expert. Here are some satellite and street images from a U.S. census tract. Based on these, please estimate the income ratio between Black and White households, which is the median income of Black households divided by the median income of White households. This value ranges from 0 to 2. A value of 1 represents parity, lower values mean higher White incomes, and higher values mean higher Black incomes.\n\nFollow the steps below to estimate the Black households’ median income, White households’ median income, and the Black-to-White income ratio for this area.\n\nSTEP 1: Based on all the images, analyze and estimate which income range the median income for Black and White households falls into:\n\n- LEVEL1: Less than $10,000\n- LEVEL2: $10,000 to $14,999\n- LEVEL3: $15,000 to $24,999\n- LEVEL4: $25,000 to $34,999\n- LEVEL5: $35,000 to $49,999\n- LEVEL6: $50,000 to $74,999\n- LEVEL7: $75,000 to $99,999\n- LEVEL8: $100,000 to $149,999\n- LEVEL9: $150,000 to $199,999\n- LEVEL10: $200,000 or more\n\nSTEP 2: Based on your predicted income ranges, estimate the specific income values within those ranges for both Black and White households.\n\nSTEP 3: Using the income data obtained in the previous step, calculate the income ratio between Black and White households. (This ratio should not exceed 2.)\n\n**Important: When you output, do not include explanations, calculations, or analysis in your response. Only provide the estimated income and Black-to-White income ratio in the format specified below.**\n\nOutput format:\n- Black Median Income: XXXXX\n- White Median Income: XXXXX\n- Income Ratio: X.XX\n"
+      },
+      {
+        "from": "gpt",
+        "value": "\n- Black Median Income: 62991\n- White Median Income: 91000\n- Income Ratio: 0.69\n"
+      }
+    ],
+    "image": [
+      "images/13134_8930.png",
+      "images/2_HzW6TwMt8J5UdksNf1_RLQ&33.58167642752576&-81.94371880588379&15.jpg",
+      "images/3_V1CQPg4fdXwOcoLmSZpCnA&33.57170457206455&-81.93533986989699&15.jpg",
+      "images/Q7OOFrl6zFXDH7KjOCt98w&33.56094375724622&-81.95636284578114&15&4.jpg",
+      "images/1_zkRgIg9J4YYbC1VH0qjPow&33.5624067239803&-81.97239811621918&15.jpg",
+      "images/3_rhNyqduMTJcJWyhrqtxgmQ&33.55928367442758&-81.94642146565963&15.jpg",
+      "images/5Dlyf0AfTZX4w3khzmOhFw&33.55625205798658&-81.9603356861652&12&3.jpg",
+      "images/30WARyaTc2_U4XJitl419Q&33.5651496428149&-81.93974855036109&15&4.jpg",
+      "images/95uQz-Qj9bz6ful70jbgtA&33.58288826188831&-81.94243787110368&15&8.jpg",
+      "images/WU7Qpqh2_qEuoKjRBfnOfQ&33.5641546467709&-81.94682613998698&15&12.jpg"
+    ],
+    "choice_list": "null",
+    "metadata": {
+      "dataset": "Socioeconomic",
+      "question_type": "open-ended"
+    }
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "sample_id": "36081100802",
+    "sub_task": "gini coefficient",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>\nYou are an economic inequality analyst specializing in geographic data. I will share images from street view and satellite sources of a U.S. census tract. Use the Gini coefficient, which ranges from 0 (perfect equality) to 1 (maximum inequality), and follow the instructions below.\n\nSTEP 1: Based on all the images, analyze and estimate the income distribution across ten levels:\nLEVEL1: Less than $10000\nLEVEL2: $10000 to $14999\nLEVEL3: $15000 to $24999\nLEVEL4: $25000 to $34999\nLEVEL5: $35000 to $49999\nLEVEL6: $50000 to $74999\nLEVEL7: $75000 to $99999\nLEVEL8: $100000 to $149999\nLEVEL9: $150000 to $199999\nLEVEL10: $200000 or more\nProvide your estimated proportions for each level, ensuring the sum equals 1.\n\nSTEP 2: Using the proportions from STEP 1, calculate the Gini coefficient. To aid this, you can use the following representative income values for each level:\nLEVEL1: $5000 \nLEVEL2: $12500 \nLEVEL3: $20000 \nLEVEL4: $30000 \nLEVEL5: $42500 \nLEVEL6: $62500 \nLEVEL7: $87500 \nLEVEL8: $125000 \nLEVEL9: $175000 \nLEVEL10: $350000\n\n**Important: When you output, do not include explanations, calculations, or analysis in your response. Only provide the income distribution and Gini coefficient in the format specified below.**\n\nOutput format:\nIncome distribution:\nLEVEL1: 0.XX, LEVEL2: 0.XX, LEVEL3: 0.XX, LEVEL4: 0.XX, LEVEL5: 0.XX, LEVEL6: 0.XX, LEVEL7: 0.XX, LEVEL8: 0.XX, LEVEL9: 0.XX, LEVEL10: 0.XX\n\nGini coefficient: 0.XX"
+      },
+      {
+        "from": "gpt",
+        "value": "Income distribution:\nLEVEL1: 0.09, LEVEL2: 0.06, LEVEL3: 0.01, LEVEL4: 0.07, LEVEL5: 0.12, LEVEL6: 0.22, LEVEL7: 0.18, LEVEL8: 0.12, LEVEL9: 0.08, LEVEL10: 0.05\n\nGini coefficient: 0.43"
+      }
+    ],
+    "image": [
+      "images/12333_9669.png",
+      "images/PyeNbhYLwshEoOHnmJgURg&40.59303311902618&-73.76592735438318&15&0.jpg",
+      "images/U_Z1oBlHbmmAqsnnvSzo5w&40.60316678468772&-73.75750983650016&15&8.jpg",
+      "images/IJe8fxywkut0kTb5955cwg&40.60221158210349&-73.7546707006111&15&8.jpg",
+      "images/2ebwA1TjF2gqH8xMvCYO-A&40.60280183099356&-73.75946912566066&12&3.jpg",
+      "images/9oAPbYpLUuBYHTpeW7M6NA&40.60117872585711&-73.76855518644325&15&8.jpg",
+      "images/UAreCGccLJjfSvr3ffYiNA&40.59885500244553&-73.76248361407879&15&8.jpg",
+      "images/Jek3WRlztzsifc5oqx6l7A&40.59945392367583&-73.76265732867428&15&4.jpg",
+      "images/nlRJu66icBe4cNkgt1LCow&40.6042751170805&-73.75919557686233&15&4.jpg",
+      "images/1bt9-dFnwxUcCwhdCC0OLA&40.60607189869446&-73.76855491712635&15&12.jpg",
+      "images/Gvmy04_p6TC_xljR8OPpjg&40.60326025099513&-73.75938787802569&12&6.jpg",
+      "images/3_H5mfjIXdNWF0BDMosG-oAA&40.59698110684868&-73.76712430061464&15.jpg",
+      "images/3_NtMm9zLyqSNe01sfZUyZPA&40.60336861004771&-73.75848957325043&15.jpg",
+      "images/2_KrxVD6UYTMs8MtG2WOBvpA&40.60251060208116&-73.75859802361082&15.jpg",
+      "images/3_46K_yHXxj03si54TiVbvPQ&40.60205147043204&-73.75892777339428&15.jpg",
+      "images/Qg7AgpyRp5L88xXzdGOW8Q&40.59776429352132&-73.7700743075625&15&8.jpg",
+      "images/4EzAYTBCErUyPpgclWHg6A&40.60736320197825&-73.75035661670974&15&4.jpg",
+      "images/R2Zi33U55oOInIdt-MDBrw&40.60805388476771&-73.76740133972595&15&4.jpg",
+      "images/2Zyugnn62MsuKkxGJ61YBQ&40.60416255976416&-73.76191910793477&15&0.jpg",
+      "images/CPqKDIt6Y3FhRRuu8yvTCA&40.60334237922235&-73.7579857451447&15&12.jpg",
+      "images/2_8Tq_LDckuNctLsKXhT2b2g&40.60594301104926&-73.75907761051116&15.jpg"
+    ],
+    "choice_list": "null",
+    "metadata": {
+      "dataset": "Socioeconomic",
+      "question_type": "open-ended"
+    }
+  },
+  {
+    "sample_id": "12057012207",
+    "sub_task": "gini coefficient",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image>\nYou specialize in analyzing geographic inequality. I will provide street view and satellite images of a U.S. census tract. Your objective is to calculate the Gini coefficient (0 = perfect equality, 1 = maximum inequality) by following the steps outlined below.\n\nSTEP 1: Based on all the images, analyze and estimate the income distribution across ten levels:\nLEVEL1: Less than $10000\nLEVEL2: $10000 to $14999\nLEVEL3: $15000 to $24999\nLEVEL4: $25000 to $34999\nLEVEL5: $35000 to $49999\nLEVEL6: $50000 to $74999\nLEVEL7: $75000 to $99999\nLEVEL8: $100000 to $149999\nLEVEL9: $150000 to $199999\nLEVEL10: $200000 or more\nProvide your estimated proportions for each level, ensuring the sum equals 1.\n\nSTEP 2: Using the proportions from STEP 1, calculate the Gini coefficient. To aid this, you can use the following representative income values for each level:\nLEVEL1: $5000 \nLEVEL2: $12500 \nLEVEL3: $20000 \nLEVEL4: $30000 \nLEVEL5: $42500 \nLEVEL6: $62500 \nLEVEL7: $87500 \nLEVEL8: $125000 \nLEVEL9: $175000 \nLEVEL10: $350000\n\n**Important: When you output, do not include explanations, calculations, or analysis in your response. Only provide the income distribution and Gini coefficient in the format specified below.**\n\nOutput format:\nIncome distribution:\nLEVEL1: 0.XX, LEVEL2: 0.XX, LEVEL3: 0.XX, LEVEL4: 0.XX, LEVEL5: 0.XX, LEVEL6: 0.XX, LEVEL7: 0.XX, LEVEL8: 0.XX, LEVEL9: 0.XX, LEVEL10: 0.XX\n\nGini coefficient: 0.XX"
+      },
+      {
+        "from": "gpt",
+        "value": "Income distribution:\nLEVEL1: 0.00, LEVEL2: 0.02, LEVEL3: 0.07, LEVEL4: 0.13, LEVEL5: 0.08, LEVEL6: 0.22, LEVEL7: 0.23, LEVEL8: 0.17, LEVEL9: 0.04, LEVEL10: 0.04\n\nGini coefficient: 0.37"
+      }
+    ],
+    "image": [
+      "images/13730_8895.png",
+      "images/i-BNHtg6Cs-DGPdPBfn5aw&27.97216767269059&-82.2771969050653&15&4.jpg",
+      "images/3_rlMz1mGlIBf54alYcYlX-g&27.97203790490486&-82.28383420161506&15.jpg",
+      "images/-evSRAlpN_RrfRSRTrQyKw&27.97857270462974&-82.28443714686111&15&12.jpg",
+      "images/0_W9Bo3nJYaTi-nuOgpQ4Pnw&27.96516599741918&-82.27765481263695&12.jpg",
+      "images/1_5nM5aTKHwzPYBU34twBFGA&27.97107960519222&-82.27766923095942&15.jpg",
+      "images/szUHYcqeJXpV3DjZzjW-Vg&27.95926740005838&-82.26759366628822&15&8.jpg",
+      "images/2_mmUPnsAhinXFi2mmAGG0sA&27.9713965829768&-82.2724922831813&15.jpg",
+      "images/jv0Z6Yk7qFVXdAdryLxdZg&27.97424894644956&-82.27130540886097&15&8.jpg",
+      "images/2_WB7uDjfneo9e9g3QygjdxQ&27.98042344339061&-82.28038363466&15.jpg",
+      "images/BiLmt1mnUjeN9MQrZBD3Ew&27.96205665269906&-82.27918363554136&15&8.jpg",
+      "images/4EfZQNc464QPK0WSk0tw_Q&27.9677133830704&-82.283270111288&15&8.jpg",
+      "images/Iwqo8JAv7Yy_BqaCDLvLgw&27.96755844152836&-82.27559395648922&15&8.jpg",
+      "images/4a_6jZyvBqxlxmwc4t3Q5A&27.97430151895146&-82.2731046899044&15&8.jpg",
+      "images/pOUNE-eKJRrLasZe_tE_aQ&27.97349611348857&-82.27898824636887&15&4.jpg",
+      "images/7B-RlTSm6KFFUTR28XkKhQ&27.96859309448161&-82.28326812271244&15&12.jpg",
+      "images/jO9Pghh4aY32knZgZuuTvg&27.9608036181061&-82.26936561104075&12&6.jpg",
+      "images/Gal2qgYksxQD4_kyAaHyjQ&27.97504136168565&-82.27559055896843&15&12.jpg",
+      "images/ryEeBrnRsrhLa9SRTx4ttQ&27.95966505108256&-82.27359229112108&15&4.jpg",
+      "images/0LXtddEOndIrUrSdJU493A&27.97675459720918&-82.27945136257172&12&9.jpg",
+      "images/v8tiSbufg83MaFN-Z2sJsA&27.97464308454934&-82.28591925825185&15&12.jpg"
+    ],
+    "choice_list": "null",
+    "metadata": {
+      "dataset": "Socioeconomic",
+      "question_type": "open-ended"
+    }
+  }
+]

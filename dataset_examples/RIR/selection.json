@@ -1,0 +1,216 @@
+[
+  {
+    "sample_id": "13089021301",
+    "n_street_views": 20,
+    "n_selected": 12,
+    "views": [
+      {
+        "image": "images/MbIN8OSySTlL3LFmuQQIag&33.90070713318038&-84.29727377569412&15&4.jpg",
+        "p_info": 0.767,
+        "selected": false
+      },
+      {
+        "image": "images/2RPJR9AVgbNgRfIBHaVPVA&33.90710756941901&-84.28782922429272&15&12.jpg",
+        "p_info": 0.0581,
+        "selected": false
+      },
+      {
+        "image": "images/wLq7Ct58ZnNbaLQ42xPShw&33.90157752349081&-84.29846343389218&15&8.jpg",
+        "p_info": 0.6078,
+        "selected": true
+      },
+      {
+        "image": "images/SArffy8JflITVg2pbZzluQ&33.90989711417786&-84.28149702522008&15&12.jpg",
+        "p_info": 0.192,
+        "selected": false
+      },
+      {
+        "image": "images/2_jTIn8Mj1kWeeu9g61ZIWbA&33.90822766694538&-84.2918413906808&15.jpg",
+        "p_info": 0.5656,
+        "selected": true
+      },
+      {
+        "image": "images/nZlBXz7K3mDnt4LH0KLokQ&33.91382929514061&-84.29169891257852&15&8.jpg",
+        "p_info": 0.7914,
+        "selected": true
+      },
+      {
+        "image": "images/g4MXCQMl7KFUEzjQE5vBNA&33.90002229400214&-84.28126029665567&15&0.jpg",
+        "p_info": 0.8164,
+        "selected": true
+      },
+      {
+        "image": "images/gJUSEbxav6l4ptDd9OdK1g&33.90689701036219&-84.28975293586697&15&12.jpg",
+        "p_info": 0.8253,
+        "selected": true
+      },
+      {
+        "image": "images/DKVnJdhDzPBcn7Zg9dfHKA&33.89764579995947&-84.27687466308312&15&8.jpg",
+        "p_info": 0.6836,
+        "selected": false
+      },
+      {
+        "image": "images/84Jaacu9l6HplbxB6eyaRQ&33.90071458648032&-84.29795806897711&15&8.jpg",
+        "p_info": 0.6425,
+        "selected": false
+      },
+      {
+        "image": "images/2__5QAZsiNEprLJKdlOeaqug&33.90293859604725&-84.27760152747538&15.jpg",
+        "p_info": 0.7429,
+        "selected": true
+      },
+      {
+        "image": "images/3_MBuyKE6QG25Bn3xGbgtbWg&33.8999440997115&-84.29396269977148&15.jpg",
+        "p_info": 0.8977,
+        "selected": true
+      },
+      {
+        "image": "images/3_WqnR0A1sOB7kwdAR4Tv1pQ&33.90520155745937&-84.29361109439924&15.jpg",
+        "p_info": 0.731,
+        "selected": true
+      },
+      {
+        "image": "images/LHzmJJv1iILRb5yRdTGx5Q&33.91080249763946&-84.28087118257086&15&0.jpg",
+        "p_info": 0.6589,
+        "selected": false
+      },
+      {
+        "image": "images/4JrDn4knaj1i_8QVZAxTfQ&33.90215836387736&-84.28002354124698&15&0.jpg",
+        "p_info": 0.839,
+        "selected": true
+      },
+      {
+        "image": "images/zCs1Epy9O9BZWPOnLhiPkw&33.90095942747677&-84.27750464487046&15&0.jpg",
+        "p_info": 0.2715,
+        "selected": false
+      },
+      {
+        "image": "images/AsWjSyph88POEsI7TWCSYQ&33.91034313952149&-84.28978369739683&15&12.jpg",
+        "p_info": 0.7829,
+        "selected": true
+      },
+      {
+        "image": "images/kFT1xg-VLoO2YOUzoWmDfw&33.91687324823513&-84.29667211147007&15&12.jpg",
+        "p_info": 0.7808,
+        "selected": true
+      },
+      {
+        "image": "images/5fcIELFd22UvoPJLR6XyZQ&33.90072459705259&-84.27436374734428&15&8.jpg",
+        "p_info": 0.3884,
+        "selected": true
+      },
+      {
+        "image": "images/fCC9gxWawJPbxS6bGNYh5w&33.90210148967898&-84.27515475147734&15&0.jpg",
+        "p_info": 0.2482,
+        "selected": false
+      }
+    ]
+  },
+  {
+    "sample_id": "45003020500",
+    "n_street_views": 20,
+    "n_selected": 9,
+    "views": [
+      {
+        "image": "images/2_HzW6TwMt8J5UdksNf1_RLQ&33.58167642752576&-81.94371880588379&15.jpg",
+        "p_info": 0.6992,
+        "selected": true
+      },
+      {
+        "image": "images/3_V1CQPg4fdXwOcoLmSZpCnA&33.57170457206455&-81.93533986989699&15.jpg",
+        "p_info": 0.6486,
+        "selected": true
+      },
+      {
+        "image": "images/fdB1zZPE10ArC3ExpITGRA&33.56413317774184&-81.94495934123941&15&8.jpg",
+        "p_info": 0.4558,
+        "selected": false
+      },
+      {
+        "image": "images/SzFVqQCd_12nfeSU58aXTA&33.58950788375994&-81.89004403308708&15&8.jpg",
+        "p_info": 0.0158,
+        "selected": false
+      },
+      {
+        "image": "images/GryWJgJhQsRAPjICAaD4Vg&33.59172584812874&-81.88845113354519&15&12.jpg",
+        "p_info": 0.1106,
+        "selected": false
+      },
+      {
+        "image": "images/fgqnjsgBFarwFd-zYc07rg&33.58884088092594&-81.89156941480327&15&4.jpg",
+        "p_info": 0.0657,
+        "selected": false
+      },
+      {
+        "image": "images/Q7OOFrl6zFXDH7KjOCt98w&33.56094375724622&-81.95636284578114&15&4.jpg",
+        "p_info": 0.6227,
+        "selected": true
+      },
+      {
+        "image": "images/1_zkRgIg9J4YYbC1VH0qjPow&33.5624067239803&-81.97239811621918&15.jpg",
+        "p_info": 0.74,
+        "selected": true
+      },
+      {
+        "image": "images/syf_ttDh7XHyM7aET83zQw&33.56606259915571&-81.93634125695661&15&12.jpg",
+        "p_info": 0.1329,
+        "selected": false
+      },
+      {
+        "image": "images/3_rhNyqduMTJcJWyhrqtxgmQ&33.55928367442758&-81.94642146565963&15.jpg",
+        "p_info": 0.7851,
+        "selected": true
+      },
+      {
+        "image": "images/5Dlyf0AfTZX4w3khzmOhFw&33.55625205798658&-81.9603356861652&12&3.jpg",
+        "p_info": 0.9165,
+        "selected": true
+      },
+      {
+        "image": "images/DYe6Z-cfBqeQ-GyFehyN6Q&33.55952357692306&-81.95644433573152&15&12.jpg",
+        "p_info": 0.3702,
+        "selected": false
+      },
+      {
+        "image": "images/_W1cZ1E9HtgHaC-XHeQCwQ&33.58794186820428&-81.93187733037287&12&6.jpg",
+        "p_info": 0.9045,
+        "selected": false
+      },
+      {
+        "image": "images/3_ohQe8LAsxIGkJq1x8vx-2g&33.59360928935237&-81.88847954426647&15.jpg",
+        "p_info": 0.0469,
+        "selected": false
+      },
+      {
+        "image": "images/vLqSeghMAkJN_o1tqJ34sg&33.58788854565332&-81.93328334868646&12&6.jpg",
+        "p_info": 0.8089,
+        "selected": false
+      },
+      {
+        "image": "images/30WARyaTc2_U4XJitl419Q&33.5651496428149&-81.93974855036109&15&4.jpg",
+        "p_info": 0.7346,
+        "selected": true
+      },
+      {
+        "image": "images/zEh5B4OTDITVCOqTEsyKJA&33.55877358577943&-81.97191469230995&15&12.jpg",
+        "p_info": 0.248,
+        "selected": false
+      },
+      {
+        "image": "images/95uQz-Qj9bz6ful70jbgtA&33.58288826188831&-81.94243787110368&15&8.jpg",
+        "p_info": 0.6076,
+        "selected": true
+      },
+      {
+        "image": "images/WU7Qpqh2_qEuoKjRBfnOfQ&33.5641546467709&-81.94682613998698&15&12.jpg",
+        "p_info": 0.7405,
+        "selected": true
+      },
+      {
+        "image": "images/LbeVWPVbSWvBaIoFueepvQ&33.56413487576396&-81.97083382164494&15&4.jpg",
+        "p_info": 0.338,
+        "selected": false
+      }
+    ]
+  }
+]
