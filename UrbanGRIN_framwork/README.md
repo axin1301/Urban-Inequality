@@ -1,12 +1,20 @@
 # UrbanGRIN
 
-Code for **UrbanGRIN: Reinforcing Multimodal Large Language Models for Evidence-Grounded Urban Inequality Estimation**.
+Implementation for **UrbanGRIN: Reinforcing Multimodal Large Language Models for Evidence-Grounded Urban Inequality Estimation**.
 
 UrbanGRIN estimates three tract-level inequality indicators from one satellite image and a set of street view images: the Gini coefficient (GC), the dominant race (DR), and the Black/White income ratio (RIR). The pipeline has three stages:
 
+![imput reduction process](figs/input-reduction-my-compressed.png)
+
 1. **Input reduction** (`view_select.py`): CLIP informativeness scoring and MMR selection keep an informative, non-redundant subset of the street views.
+
+![evidence curation process](figs/evidence-curation-my-compressed.png)
+
 2. **Evidence curation** (`build_visual_cot.py`, `make_aux_labels.py`, `build_aux_sft.py`): a teacher MLLM writes one evidence line per selected view; traces are filtered by quality, view coverage, and CLIP grounding, and intermediate judgments (Attributes, Levels) are added. The curated traces form the cold-start set (`sft_warmup.py`).
-3. **Verifiable refinement** (`train_grpo.py`, `rewards.py`, `grounding.py`): group-relative policy optimization with outcome, intermediate-quantity, consistency, judgment, evidence, and format rewards.
+
+![RL refinement process](figs/grpo-my-compressed.png)
+
+3. **RL refinement** (`train_grpo.py`, `rewards.py`, `grounding.py`): group-relative policy optimization with outcome, intermediate-quantity, consistency, judgment, evidence, and format rewards.
 
 `eval_model.py`, `metrics.py`, and `faith_stats.py` evaluate the indicators, the intermediate quantities, and the faithfulness of the reasoning.
 
@@ -18,8 +26,9 @@ UrbanGRIN estimates three tract-level inequality indicators from one satellite i
 
 ## Data
 
-We use the urban inequality benchmark of Zhang et al. (WWW 2025). Place it as
+We use the urban inequality benchmark introduced by Zhang et al. (WWW 2025). For more details, please refer to the [UI-CoT repository](https://github.com/tsinghua-fib-lab/UI-CoT).
 
+## Dataset structure
 ```
 $CITYRIUI_BASE/UI-COT-data/
     CoT_and_Original_Data/CoT_Data/gc_CoT_{train,test}.json
